@@ -1,0 +1,6 @@
+Thu Sep 15 17:24:34 2022 - INFO  - Start loading data!
+
+Thu Sep 15 17:25:26 2022 - INFO  - Start to restore the test environment.
+Failed to stop chronyd.service: Unit chronyd.service not loaded.
+Thu Sep 15 17:25:26 2022 - WARN  - no thing to do.
+Thu Sep 15 17:25:27 2022 - INFO  - End to restore the test environment.

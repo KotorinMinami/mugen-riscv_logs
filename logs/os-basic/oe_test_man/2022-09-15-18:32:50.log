@@ -1,0 +1,8 @@
+Thu Sep 15 18:32:53 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 18:33:23 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 18:33:23 2022 - INFO  - Start to run test.
+/usr/share/man/man1/ls.1.gz
+Thu Sep 15 18:33:25 2022 - INFO  - End to run test.
+Thu Sep 15 18:33:25 2022 - INFO  - succeed to execute the case.
+Thu Sep 15 18:33:26 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 18:33:37 2022 - INFO  - End to restore the test environment.

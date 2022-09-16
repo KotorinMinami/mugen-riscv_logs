@@ -1,0 +1,12 @@
+Thu Sep 15 18:35:40 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 18:36:14 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 18:36:15 2022 - INFO  - Start to run test.
+Trying 0.0.0.22...
+Connected to 22.
+Escape character is '^]'.
+Connection closed by foreign host.
+Usage: telnet [-4] [-6] [-8] [-E] [-L] [-S tos] [-a] [-c] [-d] [-e char] [-l user]
+Thu Sep 15 18:36:15 2022 - INFO  - End to run test.
+Thu Sep 15 18:36:16 2022 - INFO  - succeed to execute the case.
+Thu Sep 15 18:36:16 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 18:36:33 2022 - INFO  - End to restore the test environment.

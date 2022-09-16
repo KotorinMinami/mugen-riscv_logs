@@ -1,0 +1,19 @@
+Thu Sep 15 17:21:54 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 17:22:21 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:22:22 2022 - INFO  - Start to run test.
+Failed to enable unit: Unit file tuned.service does not exist.
+oe_test_disk_tuned_install.sh:行30: tuned-adm：未找到命令
+Thu Sep 15 17:22:23 2022 - ERROR - oe_test_disk_tuned_install.sh line 31
+Failed to restart tuned.service: Unit tuned.service not found.
+oe_test_disk_tuned_install.sh:行34: tuned-adm：未找到命令
+Thu Sep 15 17:22:24 2022 - ERROR - oe_test_disk_tuned_install.sh line 35
+Thu Sep 15 17:22:25 2022 - INFO  - End to run test.
+Thu Sep 15 17:22:25 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:22:26 2022 - INFO  - Start to restore the test environment.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Error: \n Problem: package tuned-2.10.0-10.oe2209.noarch requires virt-what, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides dmidecode needed by virt-what-1.21-1.oe2209.riscv64'
+Thu Sep 15 17:22:30 2022 - INFO  - End to restore the test environment.

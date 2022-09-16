@@ -1,0 +1,6 @@
+Thu Sep 15 18:27:18 2022 - INFO  - Start to config params of the case.
+
+Thu Sep 15 18:28:09 2022 - INFO  - Start to restore the test environment.
+Cannot find device "my_ipvlan"
+错误：未指定连接。
+Thu Sep 15 18:28:10 2022 - INFO  - End to restore the test environment.

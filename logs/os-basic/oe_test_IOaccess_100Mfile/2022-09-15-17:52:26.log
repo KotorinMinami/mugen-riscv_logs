@@ -1,0 +1,147 @@
+Thu Sep 15 17:52:28 2022 - INFO  - Start to pre test.
+Thu Sep 15 17:52:29 2022 - INFO  - Start to pre test.
+Thu Sep 15 17:52:30 2022 - INFO  - Start to run test.
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，13.2634 s，7.9 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，1.89422 s，55.4 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，13.3796 s，7.8 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，1.90231 s，55.1 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，13.1791 s，8.0 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，1.89742 s，55.3 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，13.5558 s，7.7 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，1.90896 s，54.9 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，13.8463 s，7.6 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，1.86609 s，56.2 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，13.7769 s，7.6 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，1.88873 s，55.5 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，13.3577 s，7.9 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，1.88307 s，55.7 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，13.7305 s，7.6 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，1.88776 s，55.5 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，13.4754 s，7.8 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，1.89287 s，55.4 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，13.3902 s，7.8 MB/s
+104857600
+记录了100+0 的读入
+记录了100+0 的写出
+104857600字节（105 MB，100 MiB）已复制，1.89048 s，55.5 MB/s
+104857600
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 mycpfile20220915
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 mycpfile20220915
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 mycpfile20220915
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 mycpfile20220915
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 mycpfile20220915
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 mycpfile20220915
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 mycpfile20220915
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 mycpfile20220915
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 mycpfile20220915
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 mycpfile20220915
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+Archive:  myfile20220915.zip
+  inflating: myfile20220915          
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 myfile20220915
+Archive:  myfile20220915.zip
+  inflating: myfile20220915          
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 myfile20220915
+Archive:  myfile20220915.zip
+  inflating: myfile20220915          
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 myfile20220915
+Archive:  myfile20220915.zip
+  inflating: myfile20220915          
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 myfile20220915
+Archive:  myfile20220915.zip
+  inflating: myfile20220915          
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 myfile20220915
+Archive:  myfile20220915.zip
+  inflating: myfile20220915          
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 myfile20220915
+Archive:  myfile20220915.zip
+  inflating: myfile20220915          
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 myfile20220915
+Archive:  myfile20220915.zip
+  inflating: myfile20220915          
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 myfile20220915
+Archive:  myfile20220915.zip
+  inflating: myfile20220915          
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 myfile20220915
+Archive:  myfile20220915.zip
+  inflating: myfile20220915          
+-rw-r--r-- 1 root root 104857600  9月 15 17:55 myfile20220915
+Thu Sep 15 17:56:06 2022 - INFO  - End to run test.
+Thu Sep 15 17:56:07 2022 - INFO  - succeed to execute the case.
+Thu Sep 15 17:56:08 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 17:56:08 2022 - INFO  - End to restore the test environment.

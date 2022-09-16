@@ -1,0 +1,8 @@
+Thu Sep 15 18:27:05 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 18:27:06 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 18:27:07 2022 - INFO  - Start to run test.
+testgroup:x:1000:
+Thu Sep 15 18:27:08 2022 - ERROR - oe_test_groupdel.sh line 37
+Thu Sep 15 18:27:08 2022 - INFO  - End to run test.
+Thu Sep 15 18:27:09 2022 - ERROR - failed to execute the case.
+Thu Sep 15 18:27:10 2022 - INFO  - oe_test_groupdel.sh post_test

@@ -1,0 +1,8 @@
+Thu Sep 15 17:51:32 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 17:51:33 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:51:34 2022 - INFO  - Start to run test.
+myproject
+Thu Sep 15 17:51:37 2022 - INFO  - End to run test.
+Thu Sep 15 17:51:38 2022 - INFO  - succeed to execute the case.
+Thu Sep 15 17:51:39 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 17:51:40 2022 - INFO  - End to restore the test environment.

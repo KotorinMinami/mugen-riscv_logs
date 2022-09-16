@@ -1,0 +1,12 @@
+Thu Sep 15 17:25:49 2022 - INFO  - Start environment preparation.
+Thu Sep 15 17:25:50 2022 - INFO  - Environmental preparation is over.
+Thu Sep 15 17:25:50 2022 - INFO  - Start executing testcase!
+testgroup1:x:6666:
+testgroup1:x:8888:
+testgroup2:x:8888:
+testgroup2:x:8888:testuser1
+Thu Sep 15 17:25:52 2022 - ERROR - oe_test_basic_modify_group.sh line 54
+Thu Sep 15 17:25:53 2022 - INFO  - End of testcase execution!
+Thu Sep 15 17:25:53 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:25:54 2022 - INFO  - start environment cleanup.
+Thu Sep 15 17:25:55 2022 - INFO  - Finish environment cleanup.

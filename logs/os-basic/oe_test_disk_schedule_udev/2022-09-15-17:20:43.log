@@ -1,0 +1,12 @@
+Thu Sep 15 17:20:45 2022 - INFO  - Start to config params of the case.
+Unknown device "/dev/": Inappropriate ioctl for device
+cp: 无法获取'/etc/udev/rules.d/99-scheduler.rules' 的文件状态(stat): No such file or directory
+Thu Sep 15 17:20:53 2022 - INFO  - End to config params of the case.
+Thu Sep 15 17:20:53 2022 - INFO  - Start to run test.
+awk: fatal: cannot open file `/sys/block//queue/scheduler' for reading: No such file or directory
+Thu Sep 15 17:20:56 2022 - ERROR - oe_test_disk_schedule_udev.sh line 36
+Thu Sep 15 17:20:57 2022 - INFO  - End to run test.
+Thu Sep 15 17:20:57 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:20:58 2022 - INFO  - Start to restore the test environment.
+mv: 无法获取'/etc/udev/rules.d/99-scheduler.rules.bak' 的文件状态(stat): No such file or directory
+Thu Sep 15 17:21:01 2022 - INFO  - End to restore the test environment.

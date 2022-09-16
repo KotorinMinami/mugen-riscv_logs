@@ -1,0 +1,18 @@
+Thu Sep 15 18:35:22 2022 - INFO  - Start to config params of the case.
+Thu Sep 15 18:35:23 2022 - INFO  - End to config params of the case.
+Thu Sep 15 18:35:24 2022 - INFO  - Start to prepare the test environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Sep 15 18:35:24 2022 - ERROR - Failed in remote CMD operation:1
+Thu Sep 15 18:35:25 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 18:35:26 2022 - INFO  - Start to run test.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Sep 15 18:35:26 2022 - ERROR - Failed in remote CMD operation:1
+Thu Sep 15 18:35:27 2022 - ERROR - oe_test_net_config.sh line 37
+ping: localhost.138: Name or service not known
+Thu Sep 15 18:35:27 2022 - ERROR - oe_test_net_config.sh line 39
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Sep 15 18:35:28 2022 - ERROR - Failed in remote CMD operation:1
+ping: localhost.138: Name or service not known
+Thu Sep 15 18:35:29 2022 - ERROR - oe_test_net_config.sh line 42
+Thu Sep 15 18:35:29 2022 - INFO  - End to run test.
+Thu Sep 15 18:35:30 2022 - ERROR - failed to execute the case.
+Thu Sep 15 18:35:31 2022 - INFO  - Start to restore the test environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Sep 15 18:35:31 2022 - ERROR - Failed in remote CMD operation:1
+Thu Sep 15 18:35:32 2022 - INFO  - End to restore the test environment.

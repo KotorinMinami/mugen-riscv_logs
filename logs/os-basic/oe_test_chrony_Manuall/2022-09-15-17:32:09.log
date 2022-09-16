@@ -1,0 +1,9 @@
+Thu Sep 15 17:32:11 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 17:32:47 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:32:47 2022 - INFO  - Start to run test.
+     Active: active (running) since Thu 2022-09-15 17:32:46 CST; 1s ago
+200 OK
+Thu Sep 15 17:32:48 2022 - INFO  - End to run test.
+Thu Sep 15 17:32:49 2022 - INFO  - succeed to execute the case.
+Thu Sep 15 17:32:49 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 17:33:05 2022 - INFO  - End to restore the test environment.

@@ -1,0 +1,24 @@
+Thu Sep 15 18:33:46 2022 - INFO  - Start to pre test.
+Thu Sep 15 18:33:46 2022 - INFO  - Start to pre test.
+Thu Sep 15 18:33:47 2022 - INFO  - Start to run test.
+Thu Sep 15 18:33:48 2022 - WARN  - the connect port using the default configuration
+spawn scp -P 22 -r /tmp/tmp.zDB0GLWTVK root@:/tmp
+ssh: Could not resolve hostname : Name or service not known
+lost connection
+Thu Sep 15 18:33:49 2022 - ERROR - Failed in remote SCP operation: 1
+Thu Sep 15 18:33:49 2022 - ERROR - oe_test_net_cmd_scp.sh line 30
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Sep 15 18:33:50 2022 - ERROR - Failed in remote CMD operation:1
+Thu Sep 15 18:33:51 2022 - ERROR - oe_test_net_cmd_scp.sh line 32
+Thu Sep 15 18:33:51 2022 - WARN  - the connect port using the default configuration
+spawn scp -P 22 -r /tmp/tmp.amKIyaJb7q root@:/tmp
+ssh: Could not resolve hostname : Name or service not known
+lost connection
+Thu Sep 15 18:33:52 2022 - ERROR - Failed in remote SCP operation: 1
+Thu Sep 15 18:33:53 2022 - ERROR - oe_test_net_cmd_scp.sh line 34
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Sep 15 18:33:54 2022 - ERROR - Failed in remote CMD operation:1
+Thu Sep 15 18:33:54 2022 - ERROR - oe_test_net_cmd_scp.sh line 36
+Thu Sep 15 18:33:55 2022 - INFO  - End to run test.
+Thu Sep 15 18:33:55 2022 - ERROR - failed to execute the case.
+Thu Sep 15 18:33:56 2022 - INFO  - Start to restore the test environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Sep 15 18:33:57 2022 - ERROR - Failed in remote CMD operation:1
+Thu Sep 15 18:33:58 2022 - INFO  - End to restore the test environment.

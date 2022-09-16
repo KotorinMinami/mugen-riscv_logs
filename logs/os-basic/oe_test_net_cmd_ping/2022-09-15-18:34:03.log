@@ -1,0 +1,12 @@
+Thu Sep 15 18:34:06 2022 - INFO  - Start to run test.
+PING www.mytest.com (172.67.189.23) 56(84) 字节的数据。
+
+--- www.mytest.com ping 统计 ---
+已发送 3 个包， 已接收 0 个包, 100% packet loss, time 2054ms
+
+Thu Sep 15 18:34:19 2022 - ERROR - oe_test_net_cmd_ping.sh line 25
+Usage
+Thu Sep 15 18:34:20 2022 - INFO  - End to run test.
+Thu Sep 15 18:34:20 2022 - ERROR - failed to execute the case.
+Thu Sep 15 18:34:21 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 18:34:21 2022 - INFO  - End to restore the test environment.

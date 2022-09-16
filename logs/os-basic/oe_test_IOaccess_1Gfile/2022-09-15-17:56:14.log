@@ -1,0 +1,161 @@
+Thu Sep 15 17:56:17 2022 - INFO  - Start to pre test.
+Thu Sep 15 17:56:17 2022 - INFO  - Start to pre test.
+Thu Sep 15 17:56:18 2022 - INFO  - Start to run test.
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，133.375 s，7.9 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，18.3112 s，57.3 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，133.848 s，7.8 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，18.0114 s，58.2 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，134.456 s，7.8 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，18.1494 s，57.8 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，133.409 s，7.9 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，18.208 s，57.6 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，132.476 s，7.9 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，18.1788 s，57.7 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，133.47 s，7.9 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，18.0859 s，58.0 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，133.532 s，7.9 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，18.099 s，57.9 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，133.594 s，7.8 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，18.554 s，56.5 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，134.131 s，7.8 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，18.4526 s，56.8 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，134.491 s，7.8 MB/s
+1048576000
+记录了1000+0 的读入
+记录了1000+0 的写出
+1048576000字节（1.0 GB，1000 MiB）已复制，18.7487 s，55.9 MB/s
+1048576000
+-rw-r--r-- 1 root root 1048576000  9月 15 18:21 mycpfile20220915
+-rw-r--r-- 1 root root 1048576000  9月 15 18:22 mycpfile20220915
+-rw-r--r-- 1 root root 1048576000  9月 15 18:22 mycpfile20220915
+-rw-r--r-- 1 root root 1048576000  9月 15 18:22 mycpfile20220915
+-rw-r--r-- 1 root root 1048576000  9月 15 18:22 mycpfile20220915
+-rw-r--r-- 1 root root 1048576000  9月 15 18:22 mycpfile20220915
+-rw-r--r-- 1 root root 1048576000  9月 15 18:22 mycpfile20220915
+-rw-r--r-- 1 root root 1048576000  9月 15 18:22 mycpfile20220915
+-rw-r--r-- 1 root root 1048576000  9月 15 18:22 mycpfile20220915
+-rw-r--r-- 1 root root 1048576000  9月 15 18:22 mycpfile20220915
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915 (deflated 100%)
+myfile20220915.zip
+  adding: myfile20220915Thu Sep 15 18:26:15 2022 - ERROR - Timeout : Command 'bash oe_test_IOaccess_1Gfile.sh' timed out after 1799.9994705999998 seconds
+ (deflated 100%)
+Thu Sep 15 18:26:38 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 18:26:39 2022 - INFO  - End to restore the test environment.
+ls: 无法访问 'myfile20220915.zip': No such file or directory
+Thu Sep 15 18:26:40 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 56
+unzip:  cannot find or open myfile20220915.zip, myfile20220915.zip.zip or myfile20220915.zip.ZIP.
+Thu Sep 15 18:26:41 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 62
+ls: 无法访问 'myfile20220915': No such file or directory
+Thu Sep 15 18:26:42 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 64
+unzip:  cannot find or open myfile20220915.zip, myfile20220915.zip.zip or myfile20220915.zip.ZIP.
+Thu Sep 15 18:26:42 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 62
+ls: 无法访问 'myfile20220915': No such file or directory
+Thu Sep 15 18:26:43 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 64
+unzip:  cannot find or open myfile20220915.zip, myfile20220915.zip.zip or myfile20220915.zip.ZIP.
+Thu Sep 15 18:26:44 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 62
+ls: 无法访问 'myfile20220915': No such file or directory
+Thu Sep 15 18:26:44 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 64
+unzip:  cannot find or open myfile20220915.zip, myfile20220915.zip.zip or myfile20220915.zip.ZIP.
+Thu Sep 15 18:26:45 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 62
+ls: 无法访问 'myfile20220915': No such file or directory
+Thu Sep 15 18:26:46 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 64
+unzip:  cannot find or open myfile20220915.zip, myfile20220915.zip.zip or myfile20220915.zip.ZIP.
+Thu Sep 15 18:26:46 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 62
+ls: 无法访问 'myfile20220915': No such file or directory
+Thu Sep 15 18:26:47 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 64
+unzip:  cannot find or open myfile20220915.zip, myfile20220915.zip.zip or myfile20220915.zip.ZIP.
+Thu Sep 15 18:26:48 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 62
+ls: 无法访问 'myfile20220915': No such file or directory
+Thu Sep 15 18:26:48 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 64
+unzip:  cannot find or open myfile20220915.zip, myfile20220915.zip.zip or myfile20220915.zip.ZIP.
+Thu Sep 15 18:26:49 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 62
+ls: 无法访问 'myfile20220915': No such file or directory
+Thu Sep 15 18:26:50 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 64
+unzip:  cannot find or open myfile20220915.zip, myfile20220915.zip.zip or myfile20220915.zip.ZIP.
+Thu Sep 15 18:26:50 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 62
+ls: 无法访问 'myfile20220915': No such file or directory
+Thu Sep 15 18:26:51 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 64
+unzip:  cannot find or open myfile20220915.zip, myfile20220915.zip.zip or myfile20220915.zip.ZIP.
+Thu Sep 15 18:26:52 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 62
+ls: 无法访问 'myfile20220915': No such file or directory
+Thu Sep 15 18:26:53 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 64
+unzip:  cannot find or open myfile20220915.zip, myfile20220915.zip.zip or myfile20220915.zip.ZIP.
+Thu Sep 15 18:26:53 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 62
+ls: 无法访问 'myfile20220915': No such file or directory
+Thu Sep 15 18:26:54 2022 - ERROR - oe_test_IOaccess_1Gfile.sh line 64
+Thu Sep 15 18:26:55 2022 - INFO  - End to run test.
+Thu Sep 15 18:26:55 2022 - ERROR - failed to execute the case.
+Thu Sep 15 18:26:56 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 18:26:57 2022 - INFO  - End to restore the test environment.

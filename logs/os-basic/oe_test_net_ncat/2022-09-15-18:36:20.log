@@ -1,0 +1,22 @@
+Thu Sep 15 18:36:23 2022 - INFO  - Start to prepare the test environment.
+modprobe: FATAL: Module ip_tables not found in directory /lib/modules/5.10.0
+iptables v1.8.7 (legacy): can't initialize iptables table `filter': Table does not exist (do you need to insmod?)
+Perhaps iptables or your kernel needs to be upgraded.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Sep 15 18:37:05 2022 - ERROR - Failed in remote CMD operation:1
+Thu Sep 15 18:37:06 2022 - INFO  - End to prepare the test environment.
+Start executing testcase.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Sep 15 18:37:07 2022 - ERROR - Failed in remote CMD operation:1
+Thu Sep 15 18:37:07 2022 - ERROR - oe_test_net_ncat.sh line 35
+Ncat: You must specify a host to connect to. QUITTING.
+Thu Sep 15 18:37:08 2022 - ERROR - oe_test_net_ncat.sh line 37
+Thu Sep 15 18:37:09 2022 - WARN  - the connect port using the default configuration
+spawn scp -P 22 -r root@:/root/ncat_log .
+ssh: Could not resolve hostname : Name or service not known
+Thu Sep 15 18:37:10 2022 - ERROR - Failed in remote SCP operation: 1
+grep: ncat_log: No such file or directory
+Thu Sep 15 18:37:10 2022 - ERROR - Missing actual error code.
+End of testcase execution.
+Thu Sep 15 18:37:11 2022 - ERROR - failed to execute the case.
+Thu Sep 15 18:37:11 2022 - INFO  - Start to restore the test environment.
+Usage: sshcmd.sh -c "command" -i "remote machinet ip" [-u login_user] [-p login_password] [-o port] [-t timeout]Thu Sep 15 18:37:24 2022 - ERROR - Failed in remote CMD operation:1
+Thu Sep 15 18:37:25 2022 - INFO  - End to restore the test environment.

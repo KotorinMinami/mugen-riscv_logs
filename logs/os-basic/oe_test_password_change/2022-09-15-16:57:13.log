@@ -1,0 +1,20 @@
+Thu Sep 15 16:57:15 2022 - INFO  - Start to prepare the test environment.
+groupdel：“testuser”组不存在
+Thu Sep 15 16:57:16 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 16:57:17 2022 - INFO  - Start to run test.
+Thu Sep 15 16:57:18 2022 - WARN  - the remote password uses the default configuration.
+Thu Sep 15 16:57:18 2022 - WARN  - the connect port using the default configuration
+spawn scp -P 22 -r /home/testfile testuser@localhost:/home/testuser/testfile
+The authenticity of host 'localhost (::1)' can't be established.
+ED25519 key fingerprint is SHA256:1GTndtjSQAloIjwRRBOpEDFiPnwQlcPI82N3hkRoCH4.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'localhost' (ED25519) to the list of known hosts.
+testuser@localhost's password: 
+testfile                                                  0%    0     0.0KB/s   --:-- ETAtestfile                                                100%    5     0.6KB/s   00:00    
+test
+Thu Sep 15 16:57:26 2022 - INFO  - End to run test.
+Thu Sep 15 16:57:26 2022 - INFO  - succeed to execute the case.
+Thu Sep 15 16:57:27 2022 - INFO  - Start to restore the test environment.
+userdel: user testuser is currently used by process 32845
+Thu Sep 15 16:57:28 2022 - INFO  - End to restore the test environment.

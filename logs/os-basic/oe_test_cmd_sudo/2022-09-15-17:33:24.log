@@ -1,0 +1,16 @@
+Thu Sep 15 17:33:26 2022 - INFO  - Start to prepare the test environment.
+更改用户 test 的密码 。
+passwd：所有的身份验证令牌已经成功更新。
+Thu Sep 15 17:33:27 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:33:28 2022 - INFO  - Start to run test.
+Thu Sep 15 17:33:29 2022 - ERROR - oe_test_cmd_sudo.sh line 34
+User test may run the following commands on openEuler-riscv64:
+usage: sudo -h | -K | -k | -V
+usage: sudo -v [-ABknS] [-g group] [-h host] [-p prompt] [-u user]
+usage: sudo -l [-ABknS] [-g group] [-h host] [-p prompt] [-U user] [-u user]
+usage: sudo [-ABbEHknPS] [-r role] [-t type] [-C num] [-D directory] [-g group]
+usage: sudo -e [-ABknS] [-r role] [-t type] [-C num] [-D directory] [-g group]
+Thu Sep 15 17:33:32 2022 - INFO  - End to run test.
+Thu Sep 15 17:33:33 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:33:33 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 17:33:34 2022 - INFO  - End to restore the test environment.

@@ -1,0 +1,32 @@
+Thu Sep 15 17:19:34 2022 - INFO  - Start to config the test environment.
+Thu Sep 15 17:19:41 2022 - INFO  - Start to config the test environment.
+Thu Sep 15 17:19:41 2022 - INFO  - Start to prepare the test environment.
+Failed to enable unit: Unit file tuned.service does not exist.
+mkdir: 无法创建目录 “/etc/tuned/my-profile_new”: No such file or directory
+oe_test_disk_tuned_set.sh:行43: /etc/tuned/my-profile_new/tuned.conf: No such file or directory
+oe_test_disk_tuned_set.sh:行44: tuned-adm：未找到命令
+mkdir: 无法创建目录 “/etc/tuned/my-profile”: No such file or directory
+Unknown device "/dev/": Inappropriate ioctl for device
+oe_test_disk_tuned_set.sh:行51: /etc/tuned/my-profile/tuned.conf: No such file or directory
+Thu Sep 15 17:20:08 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:20:09 2022 - INFO  - Start to run test.
+oe_test_disk_tuned_set.sh:行57: tuned-adm：未找到命令
+Thu Sep 15 17:20:10 2022 - ERROR - oe_test_disk_tuned_set.sh line 58
+oe_test_disk_tuned_set.sh:行59: tuned-adm：未找到命令
+Thu Sep 15 17:20:10 2022 - ERROR - oe_test_disk_tuned_set.sh line 60
+oe_test_disk_tuned_set.sh:行61: tuned-adm：未找到命令
+Thu Sep 15 17:20:11 2022 - ERROR - oe_test_disk_tuned_set.sh line 62
+awk: fatal: cannot open file `/sys/block//queue/scheduler' for reading: No such file or directory
+Thu Sep 15 17:20:11 2022 - ERROR - oe_test_disk_tuned_set.sh line 64
+oe_test_disk_tuned_set.sh:行65: tuned-adm：未找到命令
+Thu Sep 15 17:20:12 2022 - ERROR - oe_test_disk_tuned_set.sh line 66
+Thu Sep 15 17:20:13 2022 - INFO  - End to run test.
+Thu Sep 15 17:20:13 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:20:14 2022 - INFO  - Start to restore the test environment.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Error: Unable to find a match: dmidecode'
+Thu Sep 15 17:20:17 2022 - INFO  - End to restore the test environment.

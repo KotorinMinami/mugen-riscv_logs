@@ -1,0 +1,25 @@
+Thu Sep 15 17:21:10 2022 - INFO  - Start to prepare the test environment.
+Failed to enable unit: Unit file tuned.service does not exist.
+mkdir: 无法创建目录 “/etc/tuned/my-profile”: No such file or directory
+oe_test_disk_tuned_new.sh:行26: tuned-adm：未找到命令
+oe_test_disk_tuned_new.sh:行35: /etc/tuned/my-profile/tuned.conf: No such file or directory
+Thu Sep 15 17:21:37 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:21:38 2022 - INFO  - Start to run test.
+oe_test_disk_tuned_new.sh:行41: tuned-adm：未找到命令
+Thu Sep 15 17:21:38 2022 - ERROR - oe_test_disk_tuned_new.sh line 42
+oe_test_disk_tuned_new.sh:行43: tuned-adm：未找到命令
+Thu Sep 15 17:21:39 2022 - ERROR - oe_test_disk_tuned_new.sh line 44
+oe_test_disk_tuned_new.sh:行45: tuned-adm：未找到命令
+Thu Sep 15 17:21:39 2022 - ERROR - oe_test_disk_tuned_new.sh line 46
+oe_test_disk_tuned_new.sh:行47: tuned-adm：未找到命令
+Thu Sep 15 17:21:40 2022 - ERROR - oe_test_disk_tuned_new.sh line 48
+Thu Sep 15 17:21:41 2022 - INFO  - End to run test.
+Thu Sep 15 17:21:41 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:21:42 2022 - INFO  - Start to restore the test environment.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Error: \n Problem: package tuned-2.10.0-10.oe2209.noarch requires virt-what, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides dmidecode needed by virt-what-1.21-1.oe2209.riscv64'
+Thu Sep 15 17:21:46 2022 - INFO  - End to restore the test environment.

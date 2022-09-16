@@ -1,0 +1,8 @@
+Thu Sep 15 17:05:55 2022 - INFO  - Start to run test.
+nameserver 10.0.2.3
+nameserver 10.0.2.3
+## test
+Thu Sep 15 17:05:57 2022 - INFO  - End to run test.
+Thu Sep 15 17:05:57 2022 - INFO  - succeed to execute the case.
+Thu Sep 15 17:05:58 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 17:05:59 2022 - INFO  - End to restore the test environment.

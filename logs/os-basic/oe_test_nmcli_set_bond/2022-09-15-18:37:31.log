@@ -1,0 +1,24 @@
+Thu Sep 15 18:37:33 2022 - INFO  - Start to run test.
+Thu Sep 15 18:37:35 2022 - ERROR - oe_test_nmcli_set_bond.sh line 25
+Warning: There is another connection with the name 'bond0'. Reference the connection by its uuid 'b3d2b1f7-479b-48c2-bdf1-5c0c51571cb8'
+Thu Sep 15 18:37:36 2022 - ERROR - oe_test_nmcli_set_bond.sh line 27
+Thu Sep 15 18:37:40 2022 - ERROR - oe_test_nmcli_set_bond.sh line 49
+Thu Sep 15 18:37:41 2022 - ERROR - oe_test_nmcli_set_bond.sh line 51
+Thu Sep 15 18:37:42 2022 - ERROR - oe_test_nmcli_set_bond.sh line 53
+错误：连接激活失败：bond0 failed to create resources: Failed to create bond interface 'bond0' for 'bond0': Operation not supported
+Thu Sep 15 18:37:43 2022 - ERROR - oe_test_nmcli_set_bond.sh line 55
+Thu Sep 15 18:37:44 2022 - ERROR - oe_test_nmcli_set_bond.sh line 57
+NAME                UUID                                  TYPE      DEVICE 
+Wired connection 1  4fc4eb9a-94a3-3a40-ad68-b2dfeeb99aee  ethernet  eth0   
+bond0               f26dd922-cd1b-40c9-a191-1b352e963153  bond      --     
+bond0               b3d2b1f7-479b-48c2-bdf1-5c0c51571cb8  bond      --     
+bond0-port1         82943956-7350-4e51-8d73-5c96e1e8bda2  ethernet  --     
+bond0-port2         f4c0f03b-f551-415e-94e2-d904db3ad89a  ethernet  --     
+错误：连接激活失败：bond0 failed to create resources: Failed to create bond interface 'bond0' for 'bond0': Operation not supported
+Thu Sep 15 18:37:46 2022 - ERROR - oe_test_nmcli_set_bond.sh line 63
+grep: /proc/net/bonding/bond0: No such file or directory
+Thu Sep 15 18:37:46 2022 - ERROR - oe_test_nmcli_set_bond.sh line 65
+Thu Sep 15 18:37:47 2022 - ERROR - oe_test_nmcli_set_bond.sh line 67
+Thu Sep 15 18:37:48 2022 - INFO  - End to run test.
+Thu Sep 15 18:37:48 2022 - ERROR - failed to execute the case.
+Thu Sep 15 18:37:49 2022 - INFO  - oe_test_nmcli_set_bond.sh post_test
