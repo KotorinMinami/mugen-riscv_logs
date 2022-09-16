@@ -1,0 +1,32 @@
+Thu Sep 15 16:20:17 2022 - INFO  - Start to prepare the test environment.
+Failed to start firewalld.service: Unit firewalld.service not found.
+Thu Sep 15 16:20:43 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 16:20:43 2022 - INFO  - Start to run test.
+sed：无法读取 /etc/squid/squid.conf：No such file or directory
+Thu Sep 15 16:20:44 2022 - ERROR - oe_test_server_squid_proxy.sh line 31
+grep: /etc/squid/squid.conf: No such file or directory
+sed：无法读取 /etc/squid/squid.conf：No such file or directory
+oe_test_server_squid_proxy.sh:行34: firewall-cmd：未找到命令
+Thu Sep 15 16:20:45 2022 - ERROR - oe_test_server_squid_proxy.sh line 35
+oe_test_server_squid_proxy.sh:行36: firewall-cmd：未找到命令
+Thu Sep 15 16:20:45 2022 - ERROR - oe_test_server_squid_proxy.sh line 37
+Failed to enable unit: Unit file squid.service does not exist.
+Thu Sep 15 16:20:46 2022 - ERROR - oe_test_server_squid_proxy.sh line 39
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+curl: (7) Failed to connect to localhost port 3128 after 30 ms: Connection refused
+Thu Sep 15 16:20:50 2022 - ERROR - oe_test_server_squid_proxy.sh line 42
+ls: 无法访问 'baidu': No such file or directory
+Thu Sep 15 16:20:50 2022 - ERROR - oe_test_server_squid_proxy.sh line 44
+Thu Sep 15 16:20:51 2022 - INFO  - End to run test.
+Thu Sep 15 16:20:51 2022 - ERROR - failed to execute the case.
+Thu Sep 15 16:20:52 2022 - INFO  - Start to restore the test environment.
+sed：无法读取 /etc/squid/squid.conf：No such file or directory
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Error: Unable to find a match: squid'
+Thu Sep 15 16:20:56 2022 - INFO  - End to restore the test environment.

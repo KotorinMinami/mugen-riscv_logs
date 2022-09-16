@@ -1,0 +1,25 @@
+Thu Sep 15 16:40:47 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 16:41:14 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 16:41:14 2022 - INFO  - Start to run test.
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 16:41:25 2022 - ERROR - oe_test_server_httpd_recover.sh line 32
+mv: 无法获取'/etc/httpd/conf/httpd.conf' 的文件状态(stat): No such file or directory
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+mv: 无法获取'/etc/httpd/conf/httpd.conf_bak' 的文件状态(stat): No such file or directory
+Failed to restart httpd.service: Unit httpd.service not found.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 16:41:41 2022 - ERROR - oe_test_server_httpd_recover.sh line 43
+Thu Sep 15 16:41:42 2022 - INFO  - End to run test.
+Thu Sep 15 16:41:42 2022 - ERROR - failed to execute the case.
+Thu Sep 15 16:41:43 2022 - INFO  - Start to restore the test environment.
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Error: \n Problem: conflicting requests\n  - nothing provides system-logos needed by httpd-2.4.51-6.oe2209.riscv64'
+Thu Sep 15 16:41:47 2022 - INFO  - End to restore the test environment.

@@ -1,0 +1,32 @@
+Thu Sep 15 16:36:10 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 16:36:38 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 16:36:38 2022 - INFO  - Start to run test.
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 16:36:41 2022 - ERROR - oe_test_server_httpd_tls.sh line 33
+sed：无法读取 /etc/httpd/conf.d/ssl.conf：No such file or directory
+grep: /etc/httpd/conf.d/ssl.conf: No such file or directory
+Thu Sep 15 16:36:41 2022 - ERROR - oe_test_server_httpd_tls.sh line 36
+Failed to restart httpd.service: Unit httpd.service not found.
+Thu Sep 15 16:36:42 2022 - ERROR - oe_test_server_httpd_tls.sh line 38
+274173191200:error:0200206F:system library:connect:Connection refused:crypto/bio/b_sock2.c:110:
+274173191200:error:2008A067:BIO routines:BIO_connect:connect error:crypto/bio/b_sock2.c:111:
+274173191200:error:0200206F:system library:connect:Connection refused:crypto/bio/b_sock2.c:110:
+274173191200:error:2008A067:BIO routines:BIO_connect:connect error:crypto/bio/b_sock2.c:111:
+connect:errno=111
+Thu Sep 15 16:36:43 2022 - ERROR - oe_test_server_httpd_tls.sh line 42
+sed：无法读取 /etc/httpd/conf.d/ssl.conf：No such file or directory
+Thu Sep 15 16:36:44 2022 - ERROR - oe_test_server_httpd_tls.sh line 44
+Thu Sep 15 16:36:44 2022 - INFO  - End to run test.
+Thu Sep 15 16:36:45 2022 - ERROR - failed to execute the case.
+Thu Sep 15 16:36:45 2022 - INFO  - Start to restore the test environment.
+Failed to reload httpd.service: Unit httpd.service not found.
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: 'Error: \n Problem 1: conflicting requests\n  - nothing provides system-logos needed by httpd-2.4.51-6.oe2209.riscv64\n Problem 2: package mod_ssl-1:2.4.51-6.oe2209.riscv64 requires httpd-mmn = 20120211riscv64, but none of the providers can be installed\n  - package mod_ssl-1:2.4.51-6.oe2209.riscv64 requires httpd = 2.4.51-6.oe2209, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides system-logos needed by httpd-2.4.51-6.oe2209.riscv64'
+Thu Sep 15 16:36:49 2022 - INFO  - End to restore the test environment.

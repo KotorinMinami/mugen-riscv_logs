@@ -1,0 +1,27 @@
+Thu Sep 15 17:17:36 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 17:18:11 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:18:12 2022 - INFO  - Start to run test.
+warning: commands will be executed using /bin/sh
+job 1 at Thu Sep 15 23:30:00 2022
+warning: commands will be executed using /bin/sh
+job 2 at Fri Sep 16 16:35:00 2022
+warning: commands will be executed using /bin/sh
+job 3 at Thu Sep 15 21:18:00 2022
+warning: commands will be executed using /bin/sh
+job 4 at Thu Sep 15 21:18:00 2022
+warning: commands will be executed using /bin/sh
+job 5 at Wed Dec 12 16:30:00 2029
+warning: commands will be executed using /bin/sh
+job 6 at Wed Dec 12 16:30:00 2029
+warning: commands will be executed using /bin/sh
+job 7 at Mon Dec 12 16:30:00 2022
+2022年 09月 15日 星期四 23:29:30 CST
+hello1
+Thu Sep 15 23:30:31 2022 - INFO  - End to run test.
+Thu Sep 15 23:30:32 2022 - INFO  - succeed to execute the case.
+Thu Sep 15 23:30:32 2022 - INFO  - Start to restore the test environment.
+Cannot find jobid 1
+Cannot find jobid 3
+Cannot find jobid 4
+2022年 09月 15日 星期四 17:19:10 CST
+Thu Sep 15 17:19:25 2022 - INFO  - End to restore the test environment.

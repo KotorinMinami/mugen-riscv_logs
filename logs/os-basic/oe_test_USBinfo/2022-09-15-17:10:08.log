@@ -1,0 +1,9 @@
+Thu Sep 15 17:10:11 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 17:10:43 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:10:44 2022 - INFO  - Start to run test.
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Usage: lsusb [options]...
+Thu Sep 15 17:10:44 2022 - INFO  - End to run test.
+Thu Sep 15 17:10:45 2022 - INFO  - succeed to execute the case.
+Thu Sep 15 17:10:46 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 17:10:57 2022 - INFO  - End to restore the test environment.

@@ -1,0 +1,11 @@
+Thu Sep 15 17:15:20 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 17:15:20 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:15:21 2022 - INFO  - Start to run test.
+no crontab for root
+2022年 09月 15日 星期四 23:59:50 CST
+hello world
+Fri Sep 16 00:00:51 2022 - INFO  - End to run test.
+Fri Sep 16 00:00:51 2022 - INFO  - succeed to execute the case.
+Fri Sep 16 00:00:52 2022 - INFO  - Start to restore the test environment.
+2022年 09月 15日 星期四 17:16:20 CST
+Thu Sep 15 17:16:20 2022 - INFO  - End to restore the test environment.

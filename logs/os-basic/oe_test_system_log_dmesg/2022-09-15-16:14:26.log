@@ -1,0 +1,7 @@
+Thu Sep 15 16:14:29 2022 - INFO  - Start executing testcase.
+[    0.000000] Linux version 5.10.0 (abuild@oerv-obs-worker-07) (gcc_old (GCC) 10.3.1, GNU ld (GNU Binutils) 2.37) #1 SMP Wed Aug 10 00:52:55 UTC 2022
+[    0.029609] smp: Bringing up secondary CPUs ...
+[    0.041199] smp: Brought up 1 node, 8 CPUs
+Thu Sep 15 16:14:30 2022 - INFO  - End of testcase execution.
+Thu Sep 15 16:14:30 2022 - INFO  - succeed to execute the case.
+Thu Sep 15 16:14:31 2022 - INFO  - oe_test_system_log_dmesg.sh post_test

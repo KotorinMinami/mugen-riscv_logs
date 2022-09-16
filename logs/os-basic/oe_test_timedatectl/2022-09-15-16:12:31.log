@@ -1,0 +1,13 @@
+Thu Sep 15 16:12:34 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 16:12:39 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 16:12:40 2022 - INFO  - Start to run test.
+               Local time: 四 2022-09-15 16:12:40 CST
+              NTP service: active
+               Local time: 三 2019-08-14 00:00:00 CST
+               Local time: 三 2019-08-14 15:00:00 CST
+                Time zone: Asia/Beijing (CST, +0800)
+Wed Aug 14 15:00:01 2019 - INFO  - End to run test.
+Wed Aug 14 15:00:02 2019 - INFO  - succeed to execute the case.
+Wed Aug 14 15:00:02 2019 - INFO  - Start to restore the test environment.
+2022年 09月 15日 星期四 16:12:34 CST
+Thu Sep 15 16:12:35 2022 - INFO  - End to restore the test environment.

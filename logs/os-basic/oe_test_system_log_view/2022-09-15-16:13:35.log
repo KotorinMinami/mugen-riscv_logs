@@ -1,0 +1,24 @@
+Thu Sep 15 16:13:37 2022 - INFO  - Start executing testcase.
+btmp
+dnf.librepo.log
+dnf.log
+dnf.rpm.log
+hawkey.log
+lastlog
+lightdm
+ntpstats
+private
+README
+rebuilddb.log
+rpmpkgs
+tallylog
+wtmp
+Xorg.0.log
+Xorg.0.log.old
+cat: /var/log/messages: No such file or directory
+Thu Sep 15 16:13:44 2022 - ERROR - oe_test_system_log_view.sh line 33
+Thu Sep 15 16:13:44 2022 - INFO  - End of testcase execution.
+Thu Sep 15 16:13:45 2022 - ERROR - failed to execute the case.
+Thu Sep 15 16:13:45 2022 - INFO  - start environment cleanup.
+kill：用法：kill [-s 信号声明 | -n 信号编号 | -信号声明] 进程号 | 任务声明 ... 或 kill -l [信号声明]
+Thu Sep 15 16:13:46 2022 - INFO  - Finish environment cleanup.
