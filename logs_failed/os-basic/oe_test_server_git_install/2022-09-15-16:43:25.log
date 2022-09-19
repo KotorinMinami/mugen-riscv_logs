@@ -1,0 +1,31 @@
+Thu Sep 15 16:43:27 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 16:43:37 2022 - INFO  - pkgs:(git) is already installed
+Thu Sep 15 16:43:38 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 16:43:38 2022 - INFO  - Start to run test.
+提示：使用 'master' 作为初始分支的名称。这个默认分支名称可能会更改。要在新仓库中
+提示：配置使用初始分支名，并消除这条警告，请执行：
+提示：
+提示：	git config --global init.defaultBranch <名称>
+提示：
+提示：除了 'master' 之外，通常选定的名字有 'main'、'trunk' 和 'development'。
+提示：可以通过以下命令重命名刚创建的分支：
+提示：
+提示：	git branch -m <name>
+已初始化空的 Git 仓库于 /root/mugen-riscv/testcases/system-test/system-integration/os-basic/oe_test_server_git_install/test_openEuler/.git/
+Thu Sep 15 16:43:40 2022 - ERROR - oe_test_server_git_install.sh line 45
+[master（根提交） 561ea41] add the redme file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 my.txt
+Thu Sep 15 16:43:40 2022 - ERROR - oe_test_server_git_install.sh line 49
+    add the redme file
+Thu Sep 15 16:43:41 2022 - ERROR - oe_test_server_git_install.sh line 56
+[master 7ebf6b0] added a line of words
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Thu Sep 15 16:43:42 2022 - ERROR - oe_test_server_git_install.sh line 60
+    added a line of words
+/root/mugen-riscv/testcases/system-test/system-integration/os-basic/oe_test_server_git_install
+Thu Sep 15 16:43:43 2022 - INFO  - End to run test.
+Thu Sep 15 16:43:43 2022 - ERROR - failed to execute the case.
+Thu Sep 15 16:43:44 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 16:43:45 2022 - WARN  - no thing to do.
+Thu Sep 15 16:43:45 2022 - INFO  - End to restore the test environment.

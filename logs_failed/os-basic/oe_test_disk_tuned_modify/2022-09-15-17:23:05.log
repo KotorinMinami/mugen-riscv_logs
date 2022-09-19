@@ -1,0 +1,28 @@
+Thu Sep 15 17:23:08 2022 - INFO  - Start to config the test environment.
+oe_test_disk_tuned_modify.sh:行23: tuned-adm：未找到命令
+Thu Sep 15 17:23:08 2022 - INFO  - End to config the test environment.
+Thu Sep 15 17:23:09 2022 - INFO  - Start to prepare the test environment.
+Failed to enable unit: Unit file tuned.service does not exist.
+mkdir: 无法创建目录 “/etc/tuned/my-profile_new”: No such file or directory
+oe_test_disk_tuned_modify.sh:行40: /etc/tuned/my-profile_new/tuned.conf: No such file or directory
+mkdir: 无法创建目录 “/etc/tuned/modified-profile”: No such file or directory
+oe_test_disk_tuned_modify.sh:行43: /etc/tuned/modified-profile/tuned.conf: No such file or directory
+Thu Sep 15 17:23:36 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:23:37 2022 - INFO  - Start to run test.
+oe_test_disk_tuned_modify.sh:行49: tuned-adm：未找到命令
+Thu Sep 15 17:23:38 2022 - ERROR - oe_test_disk_tuned_modify.sh line 50
+oe_test_disk_tuned_modify.sh:行51: tuned-adm：未找到命令
+Thu Sep 15 17:23:38 2022 - ERROR - oe_test_disk_tuned_modify.sh line 52
+oe_test_disk_tuned_modify.sh:行53: tuned-adm：未找到命令
+Thu Sep 15 17:23:39 2022 - ERROR - oe_test_disk_tuned_modify.sh line 54
+Thu Sep 15 17:23:40 2022 - INFO  - End to run test.
+Thu Sep 15 17:23:40 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:23:41 2022 - INFO  - Start to restore the test environment.
+oe_test_disk_tuned_modify.sh:行61: tuned-adm：未找到命令
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Error: \n Problem: package tuned-2.10.0-10.oe2209.noarch requires virt-what, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides dmidecode needed by virt-what-1.21-1.oe2209.riscv64'
+Thu Sep 15 17:23:44 2022 - INFO  - End to restore the test environment.

@@ -1,0 +1,14 @@
+Thu Sep 15 17:12:01 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 17:12:37 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 17:12:38 2022 - INFO  - Start to run test.
+     Active: active (exited) since Thu 2022-09-15 17:12:38 CST; 128ms ago
+Linux 5.10.0 (openEuler-riscv64) 	2022年09月15日 	_riscv64_	(8 CPU)
+17时12分38秒  LINUX RESTART	(8 CPU)
+17时12分38秒     CPU     %user     %nice   %system   %iowait    %steal     %idle
+17时12分53秒 kbmemfree   kbavail kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+17时13分09秒       tps      rtps      wtps      dtps   bread/s   bwrtn/s   bdscd/s
+Thu Sep 15 17:13:24 2022 - ERROR - oe_test_ProcMgmt_sar.sh line 47
+Thu Sep 15 17:13:25 2022 - INFO  - End to run test.
+Thu Sep 15 17:13:26 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:13:26 2022 - INFO  - Start to restore the test environment.
+Thu Sep 15 17:13:43 2022 - INFO  - End to restore the test environment.

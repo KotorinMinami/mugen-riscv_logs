@@ -1,0 +1,115 @@
+Thu Sep 15 16:27:25 2022 - INFO  - Start environment preparation.
+mysql-server.riscv64                                    8.0.28-2.oe2209                              mainline 
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:14 2022 - INFO  - Environmental preparation is over.
+Thu Sep 15 16:28:15 2022 - INFO  - Start executing testcase.
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:16 2022 - ERROR - oe_test_server_mysql.sh line 42
+Unit mysqld.service could not be found.
+Thu Sep 15 16:28:17 2022 - ERROR - oe_test_server_mysql.sh line 44
+Failed to restart mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:17 2022 - ERROR - oe_test_server_mysql.sh line 47
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+Thu Sep 15 16:28:18 2022 - ERROR - oe_test_server_mysql.sh line 50
+Failed to disable unit: Unit file mysqld.service does not exist.
+Thu Sep 15 16:28:19 2022 - ERROR - oe_test_server_mysql.sh line 52
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:22 2022 - ERROR - oe_test_server_mysql.sh line 42
+Unit mysqld.service could not be found.
+Thu Sep 15 16:28:23 2022 - ERROR - oe_test_server_mysql.sh line 44
+Failed to restart mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:23 2022 - ERROR - oe_test_server_mysql.sh line 47
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+Thu Sep 15 16:28:24 2022 - ERROR - oe_test_server_mysql.sh line 50
+Failed to disable unit: Unit file mysqld.service does not exist.
+Thu Sep 15 16:28:25 2022 - ERROR - oe_test_server_mysql.sh line 52
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:28 2022 - ERROR - oe_test_server_mysql.sh line 42
+Unit mysqld.service could not be found.
+Thu Sep 15 16:28:29 2022 - ERROR - oe_test_server_mysql.sh line 44
+Failed to restart mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:30 2022 - ERROR - oe_test_server_mysql.sh line 47
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+Thu Sep 15 16:28:30 2022 - ERROR - oe_test_server_mysql.sh line 50
+Failed to disable unit: Unit file mysqld.service does not exist.
+Thu Sep 15 16:28:31 2022 - ERROR - oe_test_server_mysql.sh line 52
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:34 2022 - ERROR - oe_test_server_mysql.sh line 42
+Unit mysqld.service could not be found.
+Thu Sep 15 16:28:35 2022 - ERROR - oe_test_server_mysql.sh line 44
+Failed to restart mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:36 2022 - ERROR - oe_test_server_mysql.sh line 47
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+Thu Sep 15 16:28:36 2022 - ERROR - oe_test_server_mysql.sh line 50
+Failed to disable unit: Unit file mysqld.service does not exist.
+Thu Sep 15 16:28:37 2022 - ERROR - oe_test_server_mysql.sh line 52
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:40 2022 - ERROR - oe_test_server_mysql.sh line 42
+Unit mysqld.service could not be found.
+Thu Sep 15 16:28:41 2022 - ERROR - oe_test_server_mysql.sh line 44
+Failed to restart mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:42 2022 - ERROR - oe_test_server_mysql.sh line 47
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+Thu Sep 15 16:28:42 2022 - ERROR - oe_test_server_mysql.sh line 50
+Failed to disable unit: Unit file mysqld.service does not exist.
+Thu Sep 15 16:28:43 2022 - ERROR - oe_test_server_mysql.sh line 52
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:46 2022 - ERROR - oe_test_server_mysql.sh line 42
+Unit mysqld.service could not be found.
+Thu Sep 15 16:28:47 2022 - ERROR - oe_test_server_mysql.sh line 44
+Failed to restart mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:48 2022 - ERROR - oe_test_server_mysql.sh line 47
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+Thu Sep 15 16:28:48 2022 - ERROR - oe_test_server_mysql.sh line 50
+Failed to disable unit: Unit file mysqld.service does not exist.
+Thu Sep 15 16:28:49 2022 - ERROR - oe_test_server_mysql.sh line 52
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:53 2022 - ERROR - oe_test_server_mysql.sh line 42
+Unit mysqld.service could not be found.
+Thu Sep 15 16:28:53 2022 - ERROR - oe_test_server_mysql.sh line 44
+Failed to restart mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:54 2022 - ERROR - oe_test_server_mysql.sh line 47
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+Thu Sep 15 16:28:55 2022 - ERROR - oe_test_server_mysql.sh line 50
+Failed to disable unit: Unit file mysqld.service does not exist.
+Thu Sep 15 16:28:55 2022 - ERROR - oe_test_server_mysql.sh line 52
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:28:59 2022 - ERROR - oe_test_server_mysql.sh line 42
+Unit mysqld.service could not be found.
+Thu Sep 15 16:28:59 2022 - ERROR - oe_test_server_mysql.sh line 44
+Failed to restart mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:29:00 2022 - ERROR - oe_test_server_mysql.sh line 47
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+Thu Sep 15 16:29:01 2022 - ERROR - oe_test_server_mysql.sh line 50
+Failed to disable unit: Unit file mysqld.service does not exist.
+Thu Sep 15 16:29:01 2022 - ERROR - oe_test_server_mysql.sh line 52
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:29:05 2022 - ERROR - oe_test_server_mysql.sh line 42
+Unit mysqld.service could not be found.
+Thu Sep 15 16:29:05 2022 - ERROR - oe_test_server_mysql.sh line 44
+Failed to restart mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:29:06 2022 - ERROR - oe_test_server_mysql.sh line 47
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+Thu Sep 15 16:29:07 2022 - ERROR - oe_test_server_mysql.sh line 50
+Failed to disable unit: Unit file mysqld.service does not exist.
+Thu Sep 15 16:29:08 2022 - ERROR - oe_test_server_mysql.sh line 52
+Failed to start mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:29:11 2022 - ERROR - oe_test_server_mysql.sh line 42
+Unit mysqld.service could not be found.
+Thu Sep 15 16:29:12 2022 - ERROR - oe_test_server_mysql.sh line 44
+Failed to restart mysqld.service: Unit mysqld.service not found.
+Thu Sep 15 16:29:12 2022 - ERROR - oe_test_server_mysql.sh line 47
+Failed to stop mysqld.service: Unit mysqld.service not loaded.
+Thu Sep 15 16:29:13 2022 - ERROR - oe_test_server_mysql.sh line 50
+Failed to disable unit: Unit file mysqld.service does not exist.
+Thu Sep 15 16:29:14 2022 - ERROR - oe_test_server_mysql.sh line 52
+Thu Sep 15 16:29:17 2022 - INFO  - End of testcase execution.
+Thu Sep 15 16:29:18 2022 - ERROR - failed to execute the case.
+Thu Sep 15 16:29:18 2022 - INFO  - start environment cleanup.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: 'Error: \n Problem: conflicting requests\n  - nothing provides libnuma.so.1()(64bit) needed by mysql-server-8.0.28-2.oe2209.riscv64\n  - nothing provides libnuma.so.1(libnuma_1.1)(64bit) needed by mysql-server-8.0.28-2.oe2209.riscv64\n  - nothing provides libnuma.so.1(libnuma_1.2)(64bit) needed by mysql-server-8.0.28-2.oe2209.riscv64'
+Thu Sep 15 16:29:22 2022 - INFO  - Finish environment cleanup.

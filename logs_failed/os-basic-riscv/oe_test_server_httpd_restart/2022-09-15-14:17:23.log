@@ -1,0 +1,144 @@
+Thu Sep 15 14:17:25 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 14:17:54 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 14:17:54 2022 - INFO  - Start to run test.
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:18:03 2022 - ERROR - oe_test_server_httpd_restart.sh line 34
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Unit httpd.service could not be found.
+Thu Sep 15 14:18:04 2022 - ERROR - oe_test_server_httpd_restart.sh line 37
+Failed to disable unit: Unit file httpd.service does not exist.
+Failed to get unit file state for httpd.service: No such file or directory
+Thu Sep 15 14:18:05 2022 - ERROR - oe_test_server_httpd_restart.sh line 40
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:18:13 2022 - ERROR - oe_test_server_httpd_restart.sh line 44
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:18:22 2022 - ERROR - oe_test_server_httpd_restart.sh line 34
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Unit httpd.service could not be found.
+Thu Sep 15 14:18:23 2022 - ERROR - oe_test_server_httpd_restart.sh line 37
+Failed to disable unit: Unit file httpd.service does not exist.
+Failed to get unit file state for httpd.service: No such file or directory
+Thu Sep 15 14:18:23 2022 - ERROR - oe_test_server_httpd_restart.sh line 40
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:18:32 2022 - ERROR - oe_test_server_httpd_restart.sh line 44
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:18:41 2022 - ERROR - oe_test_server_httpd_restart.sh line 34
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Unit httpd.service could not be found.
+Thu Sep 15 14:18:42 2022 - ERROR - oe_test_server_httpd_restart.sh line 37
+Failed to disable unit: Unit file httpd.service does not exist.
+Failed to get unit file state for httpd.service: No such file or directory
+Thu Sep 15 14:18:43 2022 - ERROR - oe_test_server_httpd_restart.sh line 40
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:18:51 2022 - ERROR - oe_test_server_httpd_restart.sh line 44
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:00 2022 - ERROR - oe_test_server_httpd_restart.sh line 34
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:01 2022 - ERROR - oe_test_server_httpd_restart.sh line 37
+Failed to disable unit: Unit file httpd.service does not exist.
+Failed to get unit file state for httpd.service: No such file or directory
+Thu Sep 15 14:19:01 2022 - ERROR - oe_test_server_httpd_restart.sh line 40
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:10 2022 - ERROR - oe_test_server_httpd_restart.sh line 44
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:18 2022 - ERROR - oe_test_server_httpd_restart.sh line 34
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:19 2022 - ERROR - oe_test_server_httpd_restart.sh line 37
+Failed to disable unit: Unit file httpd.service does not exist.
+Failed to get unit file state for httpd.service: No such file or directory
+Thu Sep 15 14:19:20 2022 - ERROR - oe_test_server_httpd_restart.sh line 40
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:29 2022 - ERROR - oe_test_server_httpd_restart.sh line 44
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:37 2022 - ERROR - oe_test_server_httpd_restart.sh line 34
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:38 2022 - ERROR - oe_test_server_httpd_restart.sh line 37
+Failed to disable unit: Unit file httpd.service does not exist.
+Failed to get unit file state for httpd.service: No such file or directory
+Thu Sep 15 14:19:39 2022 - ERROR - oe_test_server_httpd_restart.sh line 40
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:47 2022 - ERROR - oe_test_server_httpd_restart.sh line 44
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:56 2022 - ERROR - oe_test_server_httpd_restart.sh line 34
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Unit httpd.service could not be found.
+Thu Sep 15 14:19:57 2022 - ERROR - oe_test_server_httpd_restart.sh line 37
+Failed to disable unit: Unit file httpd.service does not exist.
+Failed to get unit file state for httpd.service: No such file or directory
+Thu Sep 15 14:19:58 2022 - ERROR - oe_test_server_httpd_restart.sh line 40
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:20:06 2022 - ERROR - oe_test_server_httpd_restart.sh line 44
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:20:15 2022 - ERROR - oe_test_server_httpd_restart.sh line 34
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Unit httpd.service could not be found.
+Thu Sep 15 14:20:16 2022 - ERROR - oe_test_server_httpd_restart.sh line 37
+Failed to disable unit: Unit file httpd.service does not exist.
+Failed to get unit file state for httpd.service: No such file or directory
+Thu Sep 15 14:20:16 2022 - ERROR - oe_test_server_httpd_restart.sh line 40
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:20:25 2022 - ERROR - oe_test_server_httpd_restart.sh line 44
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:20:34 2022 - ERROR - oe_test_server_httpd_restart.sh line 34
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Unit httpd.service could not be found.
+Thu Sep 15 14:20:35 2022 - ERROR - oe_test_server_httpd_restart.sh line 37
+Failed to disable unit: Unit file httpd.service does not exist.
+Failed to get unit file state for httpd.service: No such file or directory
+Thu Sep 15 14:20:35 2022 - ERROR - oe_test_server_httpd_restart.sh line 40
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:20:44 2022 - ERROR - oe_test_server_httpd_restart.sh line 44
+Failed to enable unit: Unit file httpd.service does not exist.
+Failed to start httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:20:53 2022 - ERROR - oe_test_server_httpd_restart.sh line 34
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Unit httpd.service could not be found.
+Thu Sep 15 14:20:53 2022 - ERROR - oe_test_server_httpd_restart.sh line 37
+Failed to disable unit: Unit file httpd.service does not exist.
+Failed to get unit file state for httpd.service: No such file or directory
+Thu Sep 15 14:20:54 2022 - ERROR - oe_test_server_httpd_restart.sh line 40
+Failed to restart httpd.service: Unit httpd.service not found.
+Unit httpd.service could not be found.
+Thu Sep 15 14:21:03 2022 - ERROR - oe_test_server_httpd_restart.sh line 44
+Thu Sep 15 14:21:03 2022 - INFO  - End to run test.
+Thu Sep 15 14:21:04 2022 - ERROR - failed to execute the case.
+Thu Sep 15 14:21:05 2022 - INFO  - Start to restore the test environment.
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Error: \n Problem: conflicting requests\n  - nothing provides system-logos needed by httpd-2.4.51-6.oe2209.riscv64'
+Thu Sep 15 14:21:08 2022 - INFO  - End to restore the test environment.

@@ -1,0 +1,12 @@
+Thu Sep 15 17:26:03 2022 - INFO  - Start environment preparation.
+useradd warning: testuser's uid 555 outside of the UID_MIN 1000 and UID_MAX 60000 range.
+Thu Sep 15 17:26:05 2022 - INFO  - Environmental preparation is over.
+Thu Sep 15 17:26:05 2022 - INFO  - Start executing testcase!
+666
+72
+Thu Sep 15 17:26:07 2022 - ERROR - oe_test_basic_modify_user.sh line 41
+Thu Sep 15 17:26:07 2022 - INFO  - End of testcase execution!
+Thu Sep 15 17:26:08 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:26:08 2022 - INFO  - start environment cleanup.
+userdel：组“testuser”没有移除，因为它不是用户 testuser 的主组
+Thu Sep 15 17:26:09 2022 - INFO  - Finish environment cleanup.

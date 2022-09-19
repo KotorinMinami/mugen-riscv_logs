@@ -1,0 +1,10 @@
+Thu Sep 15 17:33:13 2022 - INFO  - Start to pre test.
+Thu Sep 15 17:33:14 2022 - INFO  - Start to pre test.
+Thu Sep 15 17:33:15 2022 - INFO  - Start to run test.
+Thu Sep 15 17:33:15 2022 - ERROR - oe_test_cmd_id.sh line 29
+0
+0
+Thu Sep 15 17:33:16 2022 - ERROR - oe_test_cmd_id.sh line 35
+Thu Sep 15 17:33:17 2022 - INFO  - End to run test.
+Thu Sep 15 17:33:17 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:33:18 2022 - INFO  - oe_test_cmd_id.sh post_test

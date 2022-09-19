@@ -1,0 +1,19 @@
+Thu Sep 15 17:52:14 2022 - INFO  - Start executing testcase.
+未安装软件包 kexec-tools 
+Thu Sep 15 17:52:15 2022 - ERROR - oe_test_kernel_kdump.sh line 24
+oe_test_kernel_kdump.sh:行25: grub2-mkconfig：未找到命令
+Thu Sep 15 17:52:16 2022 - ERROR - oe_test_kernel_kdump.sh line 26
+Failed to enable unit: Unit file kdump.service does not exist.
+Failed to start kdump.service: Unit kdump.service not found.
+Unit kdump.service could not be found.
+Thu Sep 15 17:52:17 2022 - ERROR - oe_test_kernel_kdump.sh line 30
+Failed to stop kdump.serviceactive.service: Unit kdump.serviceactive.service not loaded.
+Failed to disable unit: Unit file kdump.service does not exist.
+Failed to get unit file state for kdump.service: No such file or directory
+Thu Sep 15 17:52:18 2022 - ERROR - oe_test_kernel_kdump.sh line 34
+Thu Sep 15 17:52:18 2022 - INFO  - End of testcase execution.
+Thu Sep 15 17:52:19 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:52:19 2022 - INFO  - start environment cleanup.
+Failed to enable unit: Unit file kdump.service does not exist.
+Failed to start kdump.service: Unit kdump.service not found.
+Thu Sep 15 17:52:20 2022 - INFO  - Finish environment cleanup.

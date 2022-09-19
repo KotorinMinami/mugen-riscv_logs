@@ -1,0 +1,34 @@
+Thu Sep 15 17:51:59 2022 - INFO  - Start to pre test.
+Thu Sep 15 17:52:00 2022 - INFO  - Start to pre test.
+Thu Sep 15 17:52:01 2022 - INFO  - Start to run test.
+ Static hostname: openEuler-riscv64
+       Icon name: computer
+      Machine ID: 90c591939df24d938d3d0456526751b7
+         Boot ID: 19ba82e842144835b2699561ea630ff6
+Operating System: openEuler 22.09
+          Kernel: Linux 5.10.0
+    Architecture: riscv64
+ Pretty hostname: my_host
+ Pretty hostname: Tester's notebook
+spawn hostnamectl set-hostname -H root@ new_host
+[0;1;31mFailed to connect to bus: Invalid argument[0m
+expect: spawn id exp4 not open
+    while executing
+"expect eof"
+[0;1;31mFailed to connect to bus: Invalid argument[0m
+Thu Sep 15 17:52:02 2022 - ERROR - oe_test_hostnamectl.sh line 57
+spawn hostnamectl status -H root@
+[0;1;31mFailed to connect to bus: Invalid argument[0m
+expect: spawn id exp4 not open
+    while executing
+"expect eof"
+Thu Sep 15 17:52:03 2022 - ERROR - oe_test_hostnamectl.sh line 76
+Thu Sep 15 17:52:04 2022 - INFO  - End to run test.
+Thu Sep 15 17:52:04 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:52:05 2022 - INFO  - Start to restore the test environment.
+spawn hostnamectl set-hostname -H root@ openEuler-riscv64
+[0;1;31mFailed to connect to bus: Invalid argument[0m
+expect: spawn id exp4 not open
+    while executing
+"expect eof"
+Thu Sep 15 17:52:06 2022 - INFO  - End to restore the test environment.

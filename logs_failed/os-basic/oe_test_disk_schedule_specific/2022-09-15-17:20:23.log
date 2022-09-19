@@ -1,0 +1,12 @@
+Thu Sep 15 17:20:26 2022 - INFO  - Start to config params of the case.
+awk: fatal: cannot open file `/sys/block//queue/scheduler' for reading: No such file or directory
+oe_test_disk_schedule_specific.sh:行23: /sys/block//queue/scheduler: No such file or directory
+Thu Sep 15 17:20:33 2022 - INFO  - End to config params of the case.
+Thu Sep 15 17:20:34 2022 - INFO  - Start to run test.
+awk: fatal: cannot open file `/sys/block//queue/scheduler' for reading: No such file or directory
+Thu Sep 15 17:20:34 2022 - ERROR - oe_test_disk_schedule_specific.sh line 30
+Thu Sep 15 17:20:35 2022 - INFO  - End to run test.
+Thu Sep 15 17:20:36 2022 - ERROR - failed to execute the case.
+Thu Sep 15 17:20:36 2022 - INFO  - Start to restore the test environment.
+oe_test_disk_schedule_specific.sh:行36: /sys/block//queue/scheduler: No such file or directory
+Thu Sep 15 17:20:37 2022 - INFO  - End to restore the test environment.

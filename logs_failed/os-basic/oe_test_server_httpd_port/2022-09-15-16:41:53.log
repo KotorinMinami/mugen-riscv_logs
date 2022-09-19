@@ -1,0 +1,22 @@
+Thu Sep 15 16:41:55 2022 - INFO  - Start to prepare the test environment.
+Thu Sep 15 16:42:22 2022 - INFO  - End to prepare the test environment.
+Thu Sep 15 16:42:23 2022 - INFO  - Start to run test.
+oe_test_server_httpd_port.sh:行29: nc：未找到命令
+Failed to start httpd.service: Unit httpd.service not found.
+Thu Sep 15 16:42:25 2022 - ERROR - oe_test_server_httpd_port.sh line 32
+oe_test_server_httpd_port.sh: 第 34 行：kill: “”: 不是有效的进程号或者任务声明
+Failed to start httpd.service: Unit httpd.service not found.
+Thu Sep 15 16:42:26 2022 - ERROR - oe_test_server_httpd_port.sh line 36
+Unit httpd.service could not be found.
+Thu Sep 15 16:42:34 2022 - ERROR - oe_test_server_httpd_port.sh line 39
+Thu Sep 15 16:42:35 2022 - INFO  - End to run test.
+Thu Sep 15 16:42:36 2022 - ERROR - failed to execute the case.
+Thu Sep 15 16:42:36 2022 - INFO  - Start to restore the test environment.
+Failed to stop httpd.service: Unit httpd.service not loaded.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Error: \n Problem: conflicting requests\n  - nothing provides system-logos needed by httpd-2.4.51-6.oe2209.riscv64'
+Thu Sep 15 16:42:40 2022 - INFO  - End to restore the test environment.

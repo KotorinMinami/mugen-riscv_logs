@@ -1,0 +1,13 @@
+Thu Sep 15 16:42:48 2022 - INFO  - Start to prepare the test environment.
+Failed to start firewalld.service: Unit firewalld.service not found.
+Unit firewalld.service could not be found.
+Thu Sep 15 16:43:15 2022 - INFO  - Start to restore the test environment.
+oe_test_server_httpd_checkfirewall.sh: 第 42 行：[: -ne：需要一元表达式
+Failed to stop firewalld.service: Unit firewalld.service not loaded.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+OSError: [Errno 36] File name too long: 'Error: \n Problem: package firewalld-1.0.2-3.oe2209.noarch requires python3-firewall = 1.0.2-3.oe2209, but none of the providers can be installed\n  - package python3-firewall-1.0.2-3.oe2209.noarch requires python3-nftables, but none of the providers can be installed\n  - conflicting requests\n  - nothing provides python(abi) = 3.9 needed by python3-nftables-1:1.0.0-1.oe2203.riscv64'
+Thu Sep 15 16:43:19 2022 - INFO  - End to restore the test environment.

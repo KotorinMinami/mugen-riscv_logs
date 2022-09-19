@@ -1,0 +1,10 @@
+Thu Sep 15 18:38:25 2022 - INFO  - Start to run test.
+Thu Sep 15 18:38:26 2022 - ERROR - oe_test_system_monitor_share_total.sh line 25
+STAT
+%CPU
+%MEM
+grep: 无效的结束地址
+Thu Sep 15 18:38:27 2022 - ERROR - oe_test_system_monitor_share_total.sh line 33
+Thu Sep 15 18:38:28 2022 - INFO  - End to run test.
+Thu Sep 15 18:38:29 2022 - ERROR - failed to execute the case.
+Thu Sep 15 18:38:29 2022 - INFO  - oe_test_system_monitor_share_total.sh post_test

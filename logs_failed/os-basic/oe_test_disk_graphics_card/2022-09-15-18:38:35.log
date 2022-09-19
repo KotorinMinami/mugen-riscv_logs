@@ -1,0 +1,16 @@
+Thu Sep 15 18:38:38 2022 - INFO  - Start to run test.
+oe_test_disk_graphics_card.sh:行24: lspci：未找到命令
+Thu Sep 15 18:38:38 2022 - ERROR - oe_test_disk_graphics_card.sh line 25
+oe_test_disk_graphics_card.sh:行26: dmidecode：未找到命令
+Thu Sep 15 18:38:39 2022 - ERROR - oe_test_disk_graphics_card.sh line 27
+oe_test_disk_graphics_card.sh:行28: dmidecode：未找到命令
+Thu Sep 15 18:38:40 2022 - ERROR - oe_test_disk_graphics_card.sh line 29
+id: “testuser”：无此用户
+usermod: Warning: missing or non-executable shell '/bin/csh'
+su: 执行 /bin/csh 失败: No such file or directory
+sudo: lshw：找不到命令
+Thu Sep 15 18:38:42 2022 - ERROR - oe_test_disk_graphics_card.sh line 36
+Thu Sep 15 18:38:42 2022 - INFO  - End to run test.
+Thu Sep 15 18:38:43 2022 - ERROR - failed to execute the case.
+Thu Sep 15 18:38:43 2022 - INFO  - Start to clean env.
+Thu Sep 15 18:38:44 2022 - INFO  - End to clean env.

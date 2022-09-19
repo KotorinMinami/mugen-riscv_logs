@@ -1,0 +1,22 @@
+Thu Sep 15 14:06:08 2022 - INFO  - Start environment preparation.
+userdel：用户“postgres”不存在
+Thu Sep 15 14:06:09 2022 - WARN  - no thing to do.
+Thu Sep 15 14:06:35 2022 - INFO  - Environmental preparation is over.
+Thu Sep 15 14:06:36 2022 - INFO  - Start executing testcase.
+oe_test_server_postgresql.sh:行32: /usr/bin/postgresql-setup: No such file or directory
+Thu Sep 15 14:06:37 2022 - ERROR - oe_test_server_postgresql.sh line 33
+Failed to start postgresql.service: Unit postgresql.service not found.
+Thu Sep 15 14:06:37 2022 - ERROR - oe_test_server_postgresql.sh line 36
+Unit postgresql.service could not be found.
+Thu Sep 15 14:06:38 2022 - ERROR - oe_test_server_postgresql.sh line 38
+Thu Sep 15 14:06:38 2022 - INFO  - End of testcase execution.
+Thu Sep 15 14:06:39 2022 - ERROR - failed to execute the case.
+Thu Sep 15 14:06:40 2022 - INFO  - start environment cleanup.
+Traceback (most recent call last):
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 173, in <module>
+    exitcode = rpm_remove(args.node, args.pkgs, args.tempfile)
+  File "/root/mugen-riscv/libs/locallibs/rpm_manage.py", line 144, in rpm_remove
+    with open(tmpfile, "r") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'Error: Unable to find a match: postgresql-server'
+userdel：用户“postgres”不存在
+Thu Sep 15 14:06:43 2022 - INFO  - Finish environment cleanup.
