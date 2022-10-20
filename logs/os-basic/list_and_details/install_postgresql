@@ -1,0 +1,4 @@
+[root@openEuler-riscv64 oe_test_server_openssh_verifykey]# yum install postgresql-server
+Last metadata expiration check: 0:20:17 ago on 2022年10月20日 星期四 21时58分34秒.
+No match for argument: postgresql-server
+Error: Unable to find a match: postgresql-server

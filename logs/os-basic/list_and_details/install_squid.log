@@ -1,0 +1,4 @@
+[root@openEuler-riscv64 oe_test_server_openssh_verifykey]# yum install squid
+Last metadata expiration check: 1:34:41 ago on 2022年10月20日 星期四 21时58分34秒.
+No match for argument: squid
+Error: Unable to find a match: squid

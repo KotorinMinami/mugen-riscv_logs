@@ -1,0 +1,15 @@
+oe_test_ethtool
+oe_test_nmcli_8023link
+oe_test_nmcli_add_connect
+oe_test_nmcli_bridge
+oe_test_nmcli_con_reload
+oe_test_nmcli_config_connect
+oe_test_nmcli_con_reload
+oe_test_nmcli_device
+oe_test_nmcli_macsec
+oe_test_nmcli_Mgntconnect
+oe_test_nmcli_route
+oe_test_nmcli_set_bond
+oe_test_nmcli_set_team
+oe_test_nmcli_systemd_resolved
+oe_test_nmcli_vlan

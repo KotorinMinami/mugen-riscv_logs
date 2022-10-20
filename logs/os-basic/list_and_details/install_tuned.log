@@ -1,0 +1,6 @@
+Last metadata expiration check: 0:09:49 ago on 2022年10月19日 星期三 00时24分29秒.
+Error: 
+ Problem: package tuned-2.10.0-10.oe2209.noarch requires virt-what, but none of the providers can be installed
+  - conflicting requests
+  - nothing provides dmidecode needed by virt-what-1.21-1.oe2209.riscv64
+(try to add '--skip-broken' to skip uninstallable packages or '--nobest' to use not only best candidate packages)
